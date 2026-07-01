@@ -1,0 +1,24 @@
+{
+  "name": "ds-pc4-mascotas",
+  "version": "1.0.0",
+  "description": "Plataforma web de reporte de animales perdidos, buscador por imagen y red de cuidadores",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --experimental-sqlite server.js",
+    "dev": "node --watch --experimental-sqlite server.js",
+    "test": "node --experimental-sqlite --test --test-concurrency=1"
+  },
+  "keywords": [
+    "mascotas",
+    "express",
+    "sqlite",
+    "curso-desarrollo-software"
+  ],
+  "author": "Andre Sanchez Vega",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.1"
+  }
+}
