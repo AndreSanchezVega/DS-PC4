@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+
+# Base de datos y archivos generados en tiempo de ejecución
+data/*.db
+data/*.db-*
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+tmp/
